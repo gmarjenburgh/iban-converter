@@ -4,7 +4,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(String.valueOf(123));
 	}
 
 	public static boolean elevenTest(String bankAccountNumber) {
