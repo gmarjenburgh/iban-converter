@@ -4,26 +4,22 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
-		
-	}
-	
-	public static boolean elevenTest(long aNumber){
-		
-		int lengte = String.valueOf(aNumber).length();
-		int totaal=0;
-		boolean result = String.valueOf(aNumber).length()<=11;
-				
-		for (int i=1;i<lengte+1;i++){
-			totaal += i * (aNumber % 10);
-			aNumber /=10;
-		}
-		
-		result = (totaal % 11)==0;
-				
-		return result;
+		System.out.println(String.valueOf(123));
 	}
 
+	public static boolean elevenTest(String bankAccountNumber) {
+
+		int length = bankAccountNumber.length();
+		int sum = 0;
+
+		long numericBankAccountNumber = Long.parseLong(bankAccountNumber);
+
+		for (int i = 1; i < length + 1; i++) {
+			sum += i * (numericBankAccountNumber % 10);
+			numericBankAccountNumber /= 10;
+		}
+
+		return (sum % 11) == 0;
+	}
 
 }
