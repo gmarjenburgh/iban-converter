@@ -56,7 +56,7 @@ main {
 header {
     background: darkorange;
     color: floralwhite;
-    padding: 50px;
+    padding: 30px;
 }
 
 footer {
@@ -69,10 +69,35 @@ footer {
 h1 {
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.alert {
+    margin: 10px 0;
+    background-color: lightgreen;
+    border-color: green;
+    border-radius: 5px;
+    border-width: 50px;
+    padding: 20px;
 }
 
 /* Forms */
 .form-control {
     display: block;
+    margin: 5px 0;
+}
+
+input {
+    border-radius: 5px;
+    height: 24px;
+}
+
+select {
+    border-radius: 10px;
+    height: 24px;
 }
