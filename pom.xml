@@ -7,7 +7,7 @@
   <packaging>war</packaging>
 
   <name>IBAN Converter</name>
-  <description>Convert dutch bank account numbers to IBAN</description>
+  <description>Convert Dutch bank account numbers to IBAN</description>
 
   <dependencies>
     <dependency>
