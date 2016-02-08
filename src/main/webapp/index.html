@@ -16,7 +16,7 @@
     <main>
         <section>
             <h2>Choose your bank and enter your account number</h2>
-            <form id="iban-form" action="#" onsubmit="IBAN.formSubmit(event)">
+            <form id="iban-form" action="#" onsubmit="IBAN.submitForm(event)">
 
                 <div>
                     <label for="bank-dropdown">Bank</label>
@@ -111,7 +111,11 @@
     <footer>&copy; 2016 Booyah</footer>
 
     <script type="text/javascript" src="js/app.js"></script>
-    <script>document.body.onload = IBAN.init;</script>
+    <script>
+        document.body.onload = function() {
+            IBAN = App();
+        }
+    </script>
 </body>
 
 </html>
