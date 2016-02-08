@@ -4,6 +4,7 @@
   <groupId>nl.booyah</groupId>
   <artifactId>iban-converter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
 
   <name>IBAN Converter</name>
   <description>Convert dutch bank account numbers to IBAN</description>
@@ -23,6 +24,7 @@
   </dependencies>
 
   <build>
+    <finalName>iban-converter</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
