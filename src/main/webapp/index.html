@@ -2,9 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>IBAN Converter</title>
 </head>
+
 <body>
-Welcome to the IBAN Converter web page
+
+    <header>
+        <h1>IBAN Converter</h1>
+    </header>
+
+    <main>
+        <aside></aside>
+        <section>
+            <h2>Choose your bank and enter your account number</h2>
+            <form action="#">
+               
+                <div>
+                    <label for="bank-dropdown">Bank</label>
+                    <select class="form-control" name="bank" id="bank-dropdown">
+                        <option value="ABNA">ABN AMRO BANK NV</option>
+                        <option value="AEGO">AEGON BANK NV</option>
+                        <option value="ANAA">ALLIANZ NEDERLAND ASSET MANAGEMENT</option>
+                        <option value="ANDL">ANADOLUBANK NEDERLAND NV</option>
+                        <option value="ARBN">ACHMEA RETAIL BANK NV</option>
+                        <option value="ARSN">ARGENTA SPAARBANK NV</option>
+                        <option value="ARTE">GE ARTESIA BANK</option>
+                        <option value="ASNB">ASN BANK</option>
+                        <option value="ATBA">AMSTERDAM TRADE BANK NV</option>
+                        <option value="BCDM">BANQUE CHAABI DU MAROC</option>
+                        <option value="BCIT">INTESA SANPAOLO SPA</option>
+                        <option value="BICK">BINCKBANK NV</option>
+                        <option value="BINK">BINCKBANK NV</option>
+                        <option value="BKCH">BANK OF CHINA</option>
+                        <option value="BKMG">BANK MENDES GANS NV</option>
+                        <option value="BLGW">BLG WONEN</option>
+                        <option value="BMEU">BMCE EUROSERVICES</option>
+                        <option value="BNGH">NV BANK NEDERLANDSE GEMEENTEN</option>
+                        <option value="BNPA">BNP PARIBAS SA</option>
+                        <option value="BOFA">BANK OF AMERICA NA</option>
+                        <option value="BOFS">BANK OF SCOTLAND PLC</option>
+                        <option value="BOTK">BANK OF TOKYO-MITSUBISHI UFJ</option>
+                        <option value="BUNQ">BUNQ</option>
+                        <option value="CHAS">JPMORGAN CHASE</option>
+                        <option value="CITC">CITCO BANK NEDERLAND</option>
+                        <option value="CITI">CITIBANK INTERNATIONAL PLC</option>
+                        <option value="COBA">COMMERZBANK AG</option>
+                        <option value="DEUT">DEUTSCHE BANK</option>
+                        <option value="DHBN">DEMIR-HALK BANK (NEDERLAND) NV</option>
+                        <option value="DLBK">DELTA LLOYD BANK NV</option>
+                        <option value="DNIB">NIBC BANK NV</option>
+                        <option value="FBHL">CREDIT EUROPE BANK NV</option>
+                        <option value="FLOR">DE NEDERLANDSCHE BANK NV</option>
+                        <option value="FRBK">FRIESLAND BANK NV</option>
+                        <option value="FRGH">FRIESCH GRONINGSE HYPOTHEEK BANK</option>
+                        <option value="FTSB">ABN AMRO BANK NV</option>
+                        <option value="FVLB">F.VAN LANSCHOT BANKIERS NV</option>
+                        <option value="GILL">THEODOOR GILISSEN NV</option>
+                        <option value="HAND">(SVENSKA) HANDELSBANKEN AB</option>
+                        <option value="HHBA">HOF HOORNEMAN BANKIERS</option>
+                        <option value="HSBC">HSBC BANK PLC</option>
+                        <option value="ICBK">INDUSTRIAL AND COMMERCIAL BANK OF CHINA</option>
+                        <option value="INGB">ING BANK NV</option>
+                        <option value="INSI">INSINGER DE BEAUFORT NV</option>
+                        <option value="ISBK">ISBANK</option>
+                        <option value="KABA">YAPI KREDI BANK NEDERLAND NV</option>
+                        <option value="KASA">KAS BANK NV</option>
+                        <option value="KNAB">KNAB</option>
+                        <option value="KOEX">KOREA EXCHANGE BANK</option>
+                        <option value="KRED">KBC BANK NEDERLAND NV</option>
+                        <option value="LOCY">LOMBARD ODIER DARIER HENTSCH & CIE</option>
+                        <option value="LOYD">LLOYDS TSB BANK PLC</option>
+                        <option value="LPLN">LEASEPLAN CORPORATION NV</option>
+                        <option value="MHCB">MIZUHO CORPORATE BANK NEDERLAND NV</option>
+                        <option value="NNBA">NATIONALE-NEDERLANDEN BANK NV</option>
+                        <option value="NWAB">NEDERLANDSE WATERSCHAPSBANK NV</option>
+                        <option value="PCBC">CHINA CONSTRUCTION BANK SA</option>
+                        <option value="RABO">RABOBANK GROEP</option>
+                        <option value="RBOS">ROYAL BANK OF SCOTLAND</option>
+                        <option value="RBRB">REGIOBANK</option>
+                        <option value="SNSB">SNS BANK NV</option>
+                        <option value="SOGE">SOCIETE GENERALE</option>
+                        <option value="STAL">STAALBANKIERS NV</option>
+                        <option value="TEBU">THE ECONOMY BANK NV</option>
+                        <option value="TRIO">TRIODOS BANK NV</option>
+                        <option value="UBSW">UBS BANK (NETHERLANDS) BV</option>
+                        <option value="UGBI">GARANTIBANK INTERNATIONAL NV</option>
+                        <option value="VOWA">VOLKSWAGEN BANK</option>
+                        <option value="ZWLB">ZWITSERLEVENBANK</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="account-number">Account number</label>
+                    <input class="form-control" type="text" id="account-number">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>&copy; 2016 Booyah</footer>
+
 </body>
 </html>
